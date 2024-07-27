@@ -51,3 +51,49 @@ body {
     color: #111;
     font-weight: 500;
 }
+
+#new-task input:focus{
+outline: none;
+border-color: var(-- --main-color);
+}
+
+#new-task button{
+font-family: var(--poppin-font);
+font-weight: 500;
+font-size: lem;
+background-color: var(--main-color);
+color: white;
+outline: none;
+border-radius: 0.3em;
+cursor: pointer;
+}
+
+#task{
+    background-color: white;
+    position: relative;
+    padding: 1.8em 1.25em;
+    margin-top: 3.8em;
+    width: 100%;
+    box-shadow: var(--box-shadow-propertires);
+    border-radius: 0.6em;
+}
+
+.task{
+    background-color: white;
+    padding: 0.3em 0.6em;
+    margin-top: 0.6em;
+    display: flex;
+    align-items: center;
+    border-botton: var(--border-button-propertires);
+    cursor: pointer;
+}
+
+.delete{
+    background-color: red;
+}
+
+.edit{
+    background-color: var(var--main-color);
+    margin-left: auto;
+    margin-right: 3em;
+}
